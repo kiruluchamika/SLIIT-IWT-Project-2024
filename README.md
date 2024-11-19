@@ -42,7 +42,7 @@ Modify the `$password` variable as needed (leave it blank if your MySQL setup ha
 
     Login Page
 
-<img src='readme-pics/sign-in.png'>
+<img src='readme-pics/sign-in.jpeg'>
 
 _User log in page_
 
