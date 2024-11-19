@@ -1,0 +1,68 @@
+.containerpanel {
+    width: 100%;
+    margin: 0px auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-image: url('../images/admindash1.png'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+}
+
+.c1 ,.c2, .c3, .c4, .c5, .c6, .c7, .c8{
+    text-align: center;
+} 
+
+
+
+.header {
+    background-color: #54e4e4;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.header p{
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: 1.3rem;
+    
+}
+
+.header h1 {
+    margin-bottom: 10px;
+    text-align:center;
+}
+
+.section {
+    margin-bottom: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    
+}
+
+.section h3 {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #11ca33;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    opacity: 1;
+    color: white;
+}
+
+.b1{
+    height: 30%;
+    width: 30%;
+}
+
+button:hover {
+    background-color: #b1d120;
+}
+

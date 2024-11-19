@@ -1,0 +1,230 @@
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f5f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+.head{
+    text-align: center;
+    font-size: 2.4rem;
+    padding: 30px;
+}
+
+.main {
+    padding: 20px;
+}
+
+.head{
+    font-size: 2.9rem;
+    background-color: #27ae60;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+
+/* Button Styles */
+.add-btn, .function-btnd, .function-btnu {
+    padding: 12px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.add-btn {
+    background-color: #3498db;
+    color: white;
+}
+
+.add-btn{
+    margin-left:150px;
+    border-radius: 30px;
+    padding: 20px 30px;
+}
+
+.add-btn:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+}
+
+.function-btnd {
+    background-color: #27ae60;
+    color: white;
+}
+
+.function-btnd:hover {
+    background-color: #219150;
+    transform: translateY(-2px);
+}
+
+.function-btnu {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.function-btnu:hover {
+    background-color: #c0392b;
+    transform: translateY(-2px);
+}
+
+/* Table Styles */
+table {
+    width: 85%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+table, th, td {
+    border: none;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ecf0f1;
+}
+
+th {
+    background-color: #34495e;
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #ecf0f1;
+}
+
+tr:hover {
+    background-color: #dfe6e9;
+    cursor: pointer;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+/* Center the table */
+table {
+    width: 85%;
+    margin-top: 20px;
+}
+
+/* Update file */
+
+.addfile {
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.addfile h2 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.addfile form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.addfile input[type="text"],
+.addfile input[type="date"],
+.addfile input[type="tel"],
+.addfile input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.addfile input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.addfile input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.addfile input[type="text"]:focus,
+.addfile input[type="date"]:focus,
+.addfile input[type="tel"]:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+
+/* Add file */
+
+
+.addfile {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="tel"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    background-color: #17a2b8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #138496;
+}

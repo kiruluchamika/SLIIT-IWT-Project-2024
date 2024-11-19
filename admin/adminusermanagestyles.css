@@ -1,0 +1,86 @@
+.size{
+    max-width: auto;
+    height: 600px;
+    max-height: auto;
+    
+}
+
+/* Main container for User Details */
+.main {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Title styling */
+.main h2 {
+    font-size: 28px;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+/* Center the table and set up border and width */
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 90%;
+    background-color: #f4f4f4;
+}
+
+/* Set table borders */
+table, th, td {
+    border: 2px solid #6C757D;
+    padding: 10px;
+}
+
+/* Header (th) styling */
+th {
+    background-color: #6C757D; /* Dark gray header */
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Data cells (td) styling */
+td {
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Remove User (Delete) button */
+.function-btnd {
+    padding: 8px 16px;
+    font-size: 14px;
+    color: white;
+    background-color: #DC3545; 
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.3s ease;
+}
+
+.function-btnd:hover {
+    background-color: #c82333; 
+}
+
+/* Anchor tags */
+a {
+    text-decoration: none;
+}
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 768px) {
+    table {
+        width: 100%;
+    }
+
+    th, td {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .function-btnd {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+}
