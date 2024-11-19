@@ -1,0 +1,299 @@
+/* ALL GENERAL CSS FOR HEALTH INSURANCE SITE */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.size{
+  max-width: auto;
+  height: 900px;
+  max-height: auto;
+  
+}
+
+body .fade{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Define the fade-in animation */
+.fade {
+  animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+
+/* Header Styles */
+.container {
+    width: auto;
+    margin-left: 50px;
+	margin-right:50px;
+    max-width: auto;
+	position:relative;
+
+}
+
+header {
+    background-color: #F2F4F4;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.headertitle{
+    margin-bottom: 5px;
+	margin-right: 250px;
+	line-height:1.2;
+	
+}
+
+.headertitle h1{
+	font-family: 'Roboto', sans-serif;
+	font-size:50px;
+}
+
+.headertitle h2{
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+header .container {
+    display: flex;
+    /*justify-content: space-between;*/
+    align-items: center;
+}
+
+.logo img {
+    width: 150px;
+	margin-right:20px;
+	border-radius:20px;
+}
+
+.auth-buttons{
+  position: absolute;
+  right: 20px;;
+}
+
+.auth-buttons button {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    
+}
+
+.auth-buttons .sign-in {
+    background-color: #6c757d;
+}
+
+.language-switch select {
+    padding: 5px;
+    border-radius: 5px;
+	  border: 1px solid #ddd;
+	
+}
+
+.pov{
+	display:flex;
+	position:absolute;
+	right:20px;
+}
+
+/*navigation panel*/
+
+.navigation {
+	width: auto;
+  max-width: auto;
+	background-color:#dedede;
+}
+
+
+nav ul.menu {
+    display: flex;
+    list-style-type: none;
+	overflow:hidden;
+	margin:0;
+	padding:0;
+	
+}
+
+nav ul.menu .nav1 {
+    margin:10px 25px;
+	float:left;
+}
+
+/*nav ul.menu .nav2 {
+  margin:10px 25px;
+float: right;
+}*/
+
+
+nav ul.menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.menu a{
+	color:white;
+	text-decoration:none;
+	padding:10px;
+	display:block;
+	text-align:center;
+}
+
+.menu a:hover{
+	background-color:#edfc84;
+	border-radius : 0px;
+	box-shadow: 0 0 15px rgba(0, 255, 0, 0.5); /* add glow*/
+	padding:10px;
+	transform: scale(1.5);
+    transition: transform 0.5s ease-in-out;
+}
+
+
+/* footer styles */
+
+.footer-container {
+    background-color: #1d1b1b;
+    padding: 20px;
+    color: white;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .footer-section {
+    flex: 1;
+  }
+  
+  .footer-section h3 {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-section ul li a {
+    text-decoration: none;
+    color: #435ea7;
+  }
+  
+  .footer-section p {
+    margin: 0;
+    text-decoration: none;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .social-icons img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .footer-bottom {
+    background-color: #8a8a8a;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+  }
+  
+  .footer-bottom p {
+    margin: 5px 0;
+    
+  }
+  
+  .footer-bottom a {
+    color: #6318c5;
+    text-decoration: none;
+  }
+  
+  
+/* Notfication button */
+
+.notification {
+  position: relative;
+  margin-right: 172px;
+  display: flex;
+  float: right;
+}
+
+#notification-icon {
+  font-size: 24px;
+  cursor: pointer;
+  
+}
+
+#notification-count {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 3px 6px;
+  font-size: 12px;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 30px;
+  right: 0;
+  background-color: rgb(193, 185, 114);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 100;
+}
+
+.dropdown p {
+  margin: 0;
+}
+  
+/* css for messeges in crud */
+
+.alert {
+  padding: 10px;
+  margin: 50px auto; /* To center horizontally */
+  max-width: 400px; /* Adjust the width as needed */
+  border-radius: 15px;
+  font-size: 18px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+
+/* Success Style (Optional, in case you want to handle success messages differently) */
+.alert-success {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}

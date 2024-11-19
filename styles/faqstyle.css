@@ -1,0 +1,129 @@
+/* By Diayana */
+
+body{
+  background-color: antiquewhite;
+}
+
+.bimage
+{
+    font-size: larger;
+     
+}
+
+.faq-image {
+  margin: 0 auto;
+  background-size: cover;
+}
+
+
+  /* Header */
+.header{
+    margin-bottom: 20px;
+}
+
+  header h1 {
+    text-align: center;
+    color: #007BFF;
+    margin-bottom: 20px;
+  }
+  
+  /* Main section */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  
+  .faq {
+    margin-bottom: 20px;
+  }
+  
+  /* FAQ Section Headings */
+  .faq h2 {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  /* Accordion Buttons */
+  .according {
+    background-color: #f9f9f9;
+    color: #007BFF;
+    cursor: pointer;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 1em;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border-radius: 5px;
+  }
+  
+  .according:hover {
+    background-color: #007BFF;
+    color: #fff;
+  }
+  
+  .according:after {
+    content: '\f078'; /* FontAwesome Chevron Down */
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    float: right;
+    transition: transform 0.3s ease;
+  }
+  
+  .according.active:after {
+    transform: rotate(180deg);
+  }
+  
+  /* Answer Content */
+  .answers {
+    padding: 0 18px;
+    background-color: #fff;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+    border-radius: 5px;
+  }
+  
+  .answers p {
+    padding: 10px 0;
+    margin: 0;
+    font-size: 0.95em;
+    line-height: 1.6;
+  }
+  
+  /* Add shadow to make it stand out */
+  .according, .answers {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .according.active {
+    background-color: #007BFF;
+    color: #fff;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    main {
+      padding: 10px;
+    }
+  
+    .faq h2 {
+      font-size: 1.2em;
+    }
+  
+    .according {
+      font-size: 0.9em;
+    }
+  
+    .answers p {
+      font-size: 0.85em;
+    }
+  }

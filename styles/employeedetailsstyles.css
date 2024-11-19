@@ -1,0 +1,95 @@
+/* General styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0e0f7;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url('../images/tabledata.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+/* Table styling */
+table {
+    width: 80%;
+    height: auto;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 50px auto;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: center;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #4CAF50;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+td {
+    font-size: 14px;
+}
+
+/* Row hover effect */
+tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+/* Border styling */
+table, th, td {
+    border: none;
+}
+
+table tr:first-child th {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+table tr:last-child td {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #6ad660;
+    color: white;
+    border: none;
+    margin: 0;
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+
+
+
+button:hover {
+    background-color: #5d9458;
+}

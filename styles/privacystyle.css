@@ -1,0 +1,48 @@
+body{
+    font-family:Arial, sans-serif;
+    background-color: white;
+}
+
+.container{
+    width:80%;
+    margin: 5px;
+    padding: 10px;
+    
+    
+    
+}
+
+.head
+{
+    font-size: 14px;
+    color:#666;
+    margin-bottom: 20px;
+}
+
+.pheader h1{
+font-size: 24px;
+color:rgb(86, 86, 160);
+margin-bottom: 15px;
+
+}
+
+.pheader p{
+    font-size: 16px; 
+    margin-bottom: 15px; 
+    color:black;
+}
+
+.pContent h2{
+     font-size: 25px;
+     color:black;
+     margin-top: 20px;
+     margin-bottom: 10px;
+
+}
+
+.pContent p{
+     font-size: 20px;
+     color:black;
+     padding: 5px;
+    
+}

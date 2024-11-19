@@ -1,0 +1,199 @@
+/* Main container for Plan Details */
+.main {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Title styling */
+.main h2 {
+    font-size: 28px;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+/* Button for adding a new plan */
+.add-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #28A745; /* Green for add button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+.add-btn:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Center the table and set up border and width */
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 90%;
+    background-color: #f9f9f9;
+}
+
+/* Set table borders */
+table, th, td {
+    border: 2px solid #007BFF; /* Blue borders */
+    padding: 10px;
+}
+
+/* Header (th) styling */
+th {
+    background-color: #007BFF; /* Blue header */
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Data cells (td) styling */
+td {
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Update and Delete buttons */
+.function-btnu, .function-btnd {
+    padding: 8px 16px;
+    font-size: 14px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.3s ease;
+}
+
+/* Update button styling */
+.function-btnu {
+    background-color: #007BFF; /* Blue */
+}
+
+.function-btnu:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Delete button styling */
+.function-btnd {
+    background-color: #DC3545; /* Red */
+}
+
+.function-btnd:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+/* Confirm dialog box customization */
+a {
+    text-decoration: none;
+}
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 768px) {
+    table {
+        width: 100%;
+    }
+
+    th, td {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .function-btnu, .function-btnd, .add-btn {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+}
+
+
+/* plan update */
+
+.addfile {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.addfile h2 {
+    text-align: center;
+    color: #333;
+}
+
+.addfile input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.addfile input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.addfile input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* add file */
+
+
+.addfile {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    background-color: #ffc107;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #e0a800;
+}
+

@@ -1,0 +1,120 @@
+
+/* generalstyle.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: #070707;
+  line-height: 1.6;
+}
+
+
+
+.tch1 {
+  color: white;
+  background-color: #1f1e1e;
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+main {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.tac-section {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.tac {
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ccc;
+}
+
+.tac:last-child {
+  border-bottom: none;
+}
+
+.accourdion {
+  background-color: #0073e6;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  transition: background-color 0.3s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.accourdion:hover {
+  background-color: #005bb5;
+}
+
+.accourdion.active {
+  background-color: #005bb5;
+}
+
+.accourdion i {
+  font-size: 1.2em;
+  transition: transform 0.3s;
+}
+
+.accourdion.active i {
+  transform: rotate(180deg);
+}
+
+.pannel {
+  display: none;
+  background-color: #ffffff;
+  padding: 15px;
+  border-left: 3px solid #005bb5;
+  border-radius: 0 0 5px 5px;
+  animation: slideDown 0.3s ease-out;
+}
+
+.pannel p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+@keyframes slideDown {
+  from {
+      opacity: 0;
+      transform: translateY(-20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+} 
+
+ /*Styling for mobile responsiveness */
+@media (max-width: 768px) {
+  header h1 {
+      font-size: 2em;
+  }
+
+  button.accourdion {
+      font-size: 16px;
+      padding: 12px;
+  }
+      
+}

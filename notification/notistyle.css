@@ -1,0 +1,135 @@
+.main{
+    background-color: #45a049;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+/* Center the table and set up border and width */
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+    background-color: #f4f4f4;
+}
+
+/* Set table borders */
+table, th, td {
+    border: 2px solid #FFC107; /* Yellow borders */
+    padding: 10px;
+}
+
+/* Header (th) styling */
+th {
+    background-color: #FFC107; /* Yellow header */
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Data cells (td) styling */
+td {
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Delete button styling */
+.function-btnd {
+    padding: 8px 16px;
+    font-size: 14px;
+    color: white;
+    background-color: #DC3545; /* Red */
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.3s ease;
+}
+
+.function-btnd:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+/* Anchor tags */
+a {
+    text-decoration: none;
+}
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 768px) {
+    table {
+        width: 100%;
+    }
+
+    th, td {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .function-btnd {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+}
+
+
+
+
+button {
+    padding: 5px 10px;
+    background-color: #6ad660;
+    color: white;
+    border: none;
+    margin: 20px;
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+
+
+
+button:hover {
+    background-color: #5d9458;
+}
+
+
+/* add file */
+
+.addfile {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.addfile h2 {
+    text-align: center;
+    color: #333;
+}
+
+.addfile textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+.addfile input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.addfile input[type="submit"]:hover {
+    background-color: #218838;
+}

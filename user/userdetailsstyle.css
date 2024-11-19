@@ -1,0 +1,82 @@
+/* Profile card styling */
+.profile-card {
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: #e2dfdf;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 20px;
+}
+
+.profile-header {
+    text-align: center;
+    background-color: #0c598d;
+    padding: 20px;
+    color: #fff;
+    border-radius: 15px 15px 0 0;
+}
+
+.profile-header h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.profile-header h4 {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #eee;
+}
+
+/* Profile content area */
+.profile-content {
+    padding: 20px;
+}
+
+
+.profile-content p {
+    margin: 10px 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.profile-content p:last-child {
+    margin-bottom: 0;
+   
+}
+
+/* Add some spacing between labels and values */
+.profile-content p {
+    display: flex;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+
+
+/* Add a hover effect for the card */
+.profile-card:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px; 
+}
+
+.callupdate {
+    background-color: #2e148a; 
+    color: white; 
+    border: none; 
+    padding: 12px 20px; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background 0.3s, transform 0.3s;
+}
+
+.callupdate:hover {
+    background-color: #070c22; 
+    transform: translateY(-2px); 
+}
